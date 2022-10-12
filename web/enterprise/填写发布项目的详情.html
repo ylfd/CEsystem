@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>填写项目的详细信息</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <a class="navbar-brand" href="#">协同育人校企合作平台</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="./学生投递简历.html">首页<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="../企业发布项目.html">企业项目</a>
+                <a class="nav-item nav-link" href="../enterprisePage/填写发布项目的详情.html">提交项目</a>
+                <a class="nav-item nav-link" href="../studentPage/编写简历.html">我的简历</a>
+            </div>
+        </div>
+    </nav>
+    <h3 style="text-align: center;">请填写发布项目详细信息</h3>
+    <div style="width: 800px;margin: 0px auto;display: table;">
+        <form role="form">
+            <div class="form-group">
+               <label for="Cname">企业名称</label>
+               <input type="text" class="form-control" id="Cname" placeholder="三只松鼠有限公司">
+            </div>
+            <div class="form-group">
+                <label for="Pname">项目名称</label>
+                <input type="text" class="form-control" id="Pname" placeholder="请输入发布项目的名称">
+            </div>
+            <div class="form-group">
+                <label for="Tcr">项目需要技术</label>
+                <textarea class="form-control" rows="3" placeholder="请输入项目所用到的技术，例如Java，SSH框架等等"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="Content">项目具体内容</label>
+                <textarea class="form-control" rows="3" placeholder="请输入项目需要实现的具体情况"></textarea>
+            </div>
+             <div style="margin: 0px auto;display: table;">
+             <button type="submit" class="btn btn-primary">提交发布信息</button>
+             <div style="width: 150px;display: inline-block;"></div>
+             <button type="reset" class="btn btn-primary">重置发布信息</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

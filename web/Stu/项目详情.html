@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>项目详情</title>
+    <style>
+        .form-group{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <a class="navbar-brand" href="#">协同育人校企合作平台</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="企业发布项目.html">首页<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./企业发布项目.html">企业项目</a>
+                <a class="nav-item nav-link" href="#">提交项目</a>
+                <a class="nav-item nav-link" href="./studentPage/编写简历.html">我的简历</a>
+            </div>
+        </div>
+    </nav>
+    <h3 style="margin: 0px auto;display: table;font-weight: 700;">项目的详情信息</h3>
+    <form class="form-inline" style="margin: 0px auto;display: table;margin-top: 30px;">
+        <div class="form-group">
+          <label for="exampleCName">项目企业:</label>
+          <input type="text" id="CName" value="三只松鼠有限公司" style="width: 300px">
+        </div>
+        <div class="form-group">
+          <label for="examplePName">项目名称:</label>
+          <input type="text" id="PName" value="酒店管理系统" style="width: 300px">
+        </div>
+        <div class="form-group">
+            <label for="examplePTechnology">项目技术:</label>
+            <textarea rows="2" style="width: 300px">前端采用html5语言编写，可以考虑使用框架</textarea>
+        </div>
+        <div class="form-group">
+            <label for="name">项目详情:</label>
+            <textarea class="form-control" rows="10" style="width: 300px">客房信息管理系统：主要查看客房的入住情况，了解客房的入住率。
+订房信息管理系统：酒店客房管理系统的核心部分。它的主要功能是存储订房时的信息，包括登记人姓名、证件号、登记类型、所选的餐饮标准、押金及入住时间等。这些信息直接关系到后续的结算信息管理。
+结算信息管理系统：结合订房的信息进行自动化结账，并存储结算信息，包括客房定价、押金、餐饮消费、客房消费、客户类型、结算时间、入住天数、消费总额等，结算完毕就可以退房。</textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleTime">发布时间:</label>
+            <input type="text" id="Time" value="2020-6-11 19:36:10" style="width: 300px">
+        </div> 
+    </form>
+    <div style="margin: 0px auto;display: table;margin-top: 30px;">
+    <button type="submit" class="btn btn-primary">投递简历</button>
+    <div style="width: 200px;display: inline-block;"></div>
+    <button type="submit" class="btn btn-primary">返回</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+</html>
